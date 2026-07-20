@@ -154,7 +154,7 @@
 .links .link-card:nth-child(6) { animation-delay: 0.4s; }
 
 .footer {
-  animation: fadeIn var(--transition-slow) ease 0.7s both;
+  animation: fadeIn var(--transition-slow) ease both;
 }
 
 @media (prefers-reduced-motion: reduce) {

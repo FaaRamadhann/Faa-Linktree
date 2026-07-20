@@ -13,8 +13,10 @@ function initBackToTop() {
   const btn = document.getElementById('back-to-top');
   if (!btn) return;
 
+  const threshold = window.innerWidth < 480 ? 200 : 400;
+
   const toggle = throttle(() => {
-    btn.classList.toggle('visible', window.scrollY > 400);
+    btn.classList.toggle('visible', window.scrollY > threshold);
   }, 100);
 
   window.addEventListener('scroll', toggle, { passive: true });
