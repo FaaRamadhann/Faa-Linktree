@@ -1,0 +1,10 @@
+{
+  "name": "Fauzi Ramadhan",
+  "short_name": "FaaLinks",
+  "description": "Mechanical Engineering & Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EAF8FF",
+  "theme_color": "#38BDF8",
+  "icons": []
+}

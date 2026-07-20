@@ -1,0 +1,13 @@
+{
+  "name": "Light Blue Sea",
+  "primary": "#38BDF8",
+  "primaryHover": "#0EA5E9",
+  "secondary": "#7DD3FC",
+  "accent": "#38BDF8",
+  "background": "#EAF8FF",
+  "surface": "rgba(255, 255, 255, 0.55)",
+  "glass": "rgba(255, 255, 255, 0.35)",
+  "border": "rgba(255, 255, 255, 0.45)",
+  "text": "#0F172A",
+  "subtitle": "#64748B"
+}

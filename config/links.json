@@ -1,0 +1,59 @@
+{
+  "featured": {
+    "title": "Portfolio",
+    "subtitle": "Explore my work & projects",
+    "url": "https://faa-portfolio.vercel.app/",
+    "icon": "portfolio"
+  },
+  "links": [
+    {
+      "id": "github",
+      "title": "GitHub",
+      "subtitle": "View my open source repos",
+      "url": "https://github.com/FaaRamadhan2",
+      "icon": "github",
+      "type": "link"
+    },
+    {
+      "id": "discord",
+      "title": "Discord",
+      "subtitle": "Connect with me on Discord",
+      "icon": "discord",
+      "type": "link",
+      "url": "https://discord.com/users/997607633550848050"
+    },
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "subtitle": "Follow me on Instagram",
+      "url": "https://instagram.com/faa_ramadhan125",
+      "icon": "instagram",
+      "type": "link"
+    },
+    {
+      "id": "tiktok",
+      "title": "TikTok",
+      "subtitle": "Watch my content on TikTok",
+      "url": "https://www.tiktok.com/@faa_ramadhan",
+      "icon": "tiktok",
+      "type": "link"
+    },
+    {
+      "id": "whatsapp",
+      "title": "WhatsApp",
+      "subtitle": "Chat with me on WhatsApp",
+      "url": "https://wa.me/6281958964900",
+      "icon": "whatsapp",
+      "type": "link"
+    },
+    {
+      "id": "email",
+      "title": "Email",
+      "subtitle": "Send me an email",
+      "icon": "email",
+      "type": "link",
+      "url": "mailto:fauziramadhanmc126@gmail.com"
+    }
+  ],
+  "techStack": ["Python", "JavaScript", "HTML5", "CSS3", "Node.js"]
+}
