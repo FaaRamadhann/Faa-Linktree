@@ -57,18 +57,21 @@
     font-size: var(--font-size-base);
   }
 
-  .bg-blobs::before {
-    width: 300px;
-    height: 300px;
-    top: -100px;
-    right: -100px;
+  .bg-blobs,
+  .bg-blob-secondary,
+  .bg-bubbles,
+  .bg-noise,
+  .bg-ocean,
+  .bg-gradient {
+    display: none;
   }
 
-  .bg-blobs::after {
-    width: 250px;
-    height: 250px;
-    bottom: -100px;
-    left: -100px;
+  html {
+    background-attachment: scroll;
+  }
+
+  .bg-wave {
+    display: none;
   }
 
   .back-to-top,

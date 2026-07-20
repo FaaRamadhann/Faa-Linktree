@@ -13,13 +13,18 @@ function initBackToTop() {
   const btn = document.getElementById('back-to-top');
   if (!btn) return;
 
-  const threshold = window.innerWidth < 480 ? 200 : 400;
+  const threshold = window.innerWidth < 768 ? 80 : 250;
 
-  const toggle = throttle(() => {
+  function checkScroll() {
     btn.classList.toggle('visible', window.scrollY > threshold);
-  }, 100);
+  }
+
+  const toggle = throttle(checkScroll, 100);
+
+  checkScroll();
 
   window.addEventListener('scroll', toggle, { passive: true });
+  window.addEventListener('resize', checkScroll);
 
   btn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
